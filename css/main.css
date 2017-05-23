@@ -137,6 +137,8 @@ main a{
 	margin: 0 auto 50px;
 }
 
+
+
 	/* Footer */
 
 footer{
@@ -220,6 +222,9 @@ footer p{
 	color: #000000;
 	transition:0;
 }
+
+#diensten{}
+
 /* Formulier */
 form{
 	border: 0;
@@ -262,7 +267,7 @@ form{
 	float: left;
 }
 
-textarea:active{
+textarea:focus{
 	border-bottom-color: #785a99;
 }
 input{
@@ -294,6 +299,7 @@ fieldset{
 textarea{
 	border: 0px;
 	width: 550px;
+	resize: none;
 }
 
 textarea:focus{
