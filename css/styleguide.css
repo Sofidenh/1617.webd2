@@ -232,6 +232,7 @@ p{
 	overflow:hidden;
 	position:relative;
 	width: 100%;
+	height: 900px;
 }
 
 #masker figure {
